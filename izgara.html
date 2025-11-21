@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Izgara</title>
+    <style>
+        .grid-container {
+            display: grid; /* ızgara oldugunu belirtmek için kullanılır. */
+            grid-template-columns: 1fr 1fr 1fr 1fr; /* bir satırda kaç tane ızgara olacagını belirtir. */
+            grid-template-rows: 200px 200px 200px 200px; /*ızgaraların boyutunu belirtmek için kullanılır. */
+            gap: 10px; /* ızgaralar arası mesafeyi belierler. */
+        }
+        .first {
+            grid-column: span 4; /* ızgarada değiştirmek istediğin özellik için kullanılır. 
+            burada ilk ızgaranın tüm ızgaraları kaplayacak şekilde bir sütunu olsun istemişim. */
+        }
+        .card {
+            background-color:blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="first card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+    </div>
+</body>
+</html>

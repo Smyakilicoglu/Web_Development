@@ -1,0 +1,132 @@
+{
+	"folders": [
+		{
+			"name": "WEB DEVELOPMENT",
+			"path": "../.."
+		},
+		{
+			"name": "static",
+			"path": "../../../../Downloads/Caveat/static"
+		},
+		{
+			"name": "3.0 List Elements",
+			"path": "../../../../Downloads/3.0+List+Elements/3.0 List Elements"
+		},
+		{
+			"name": "3.1 Nesting and Indentation",
+			"path": "../../../../Downloads/3.1+Nesting+and+Indentation/3.1 Nesting and Indentation"
+		},
+		{
+			"name": "3.2 Anchor Elements",
+			"path": "../../../../Downloads/3.2+Anchor+Elements/3.2 Anchor Elements"
+		},
+		{
+			"name": "3.3 Image Elements",
+			"path": "../../../../Downloads/3.3+Image+Elements/3.3 Image Elements"
+		},
+		{
+			"name": "3.4 Birthday Invite Project",
+			"path": "../../../../Downloads/3.4+Birthday+Invite+Project/3.4 Birthday Invite Project"
+		},
+		{
+			"name": "4.0 File Paths",
+			"path": "../../../../Downloads/4.0+File+Paths/4.0 File Paths"
+		},
+		{
+			"name": "4.1 Webpages",
+			"path": "../../../../Downloads/4.1+Webpages/4.1 Webpages"
+		},
+		{
+			"name": "4.3 HTML Porfolio Project",
+			"path": "../../../../Downloads/4.1+Webpages/4.3 HTML Porfolio Project"
+		},
+		{
+			"name": "5.1. Adding CSS",
+			"path": "../../../../Downloads/5.1+Adding+CSS/5.1. Adding CSS"
+		},
+		{
+			"name": "5.3 CSS Selectors",
+			"path": "../../../../Downloads/5.3+CSS+Selectors/5.3 CSS Selectors"
+		},
+		{
+			"name": "5.4 Color Vocab Project",
+			"path": "../../../../Downloads/5.4+Color+Vocab+Project/5.4 Color Vocab Project"
+		},
+		{
+			"name": "6.0 CSS Colors",
+			"path": "../../../../Downloads/6.0+CSS+Colors/6.0 CSS Colors"
+		},
+		{
+			"name": "6.1 Font Properties",
+			"path": "../../../../Downloads/6.1+Font+Properties/6.1 Font Properties"
+		},
+		{
+			"name": "css-inspection-main",
+			"path": "../../../../Downloads/css-inspection-main/css-inspection-main"
+		},
+		{
+			"name": "6.3 CSS Box Model",
+			"path": "../../../../Downloads/6.3+CSS+Box+Model/6.3 CSS Box Model"
+		},
+		{
+			"name": "6.4 Motivation Meme Project",
+			"path": "../../../../Downloads/6.4+Motivation+Meme+Project/6.4 Motivation Meme Project"
+		},
+		{
+			"name": "7.0 CSS Cascade",
+			"path": "../../../../Downloads/7.0+CSS+Cascade/7.0 CSS Cascade"
+		},
+		{
+			"name": "7.1 Combining Selectors",
+			"path": "../../../../Downloads/7.1+Combining+Selectors/7.1 Combining Selectors"
+		},
+		{
+			"name": "7.2 CSS Positioning",
+			"path": "../../../../Downloads/7.2+CSS+Positioning/7.2 CSS Positioning"
+		},
+		{
+			"name": "7.3 CSS Flag Project",
+			"path": "../../../../Downloads/7.3+Flag+Project/7.3 CSS Flag Project"
+		},
+		{
+			"path": "../../../../Downloads/8.0+CSS+Display/8.0 CSS Display"
+		},
+		{
+			"path": "../../../../Downloads/8.1+CSS+Float/8.1 CSS Float"
+		},
+		{
+			"path": "../../../../Downloads/8.2+Responsiveness/8.2 Responsiveness"
+		},
+		{
+			"path": "../../../../Downloads/8.3+Media+Query/8.3 Media Query"
+		},
+		{
+			"path": "../../../../Downloads/8.4+Web+Design+Agency+Project/8.4 Web Design Agency Project"
+		},
+		{
+			"path": "../../../../Downloads/9.0+Display+Flex/9.0 Display Flex"
+		},
+		{
+			"path": "../../../../Downloads/9.1+Flex+Direction/9.1 Flex Direction"
+		},
+		{
+			"path": "../../../../Downloads/9.4+Flexbox+Pricing+Table+Project/9.4 Flexbox Pricing Table Project"
+		},
+		{
+			"path": "../../../../Downloads/10.0+Display+Grid/10.0 Display Grid"
+		},
+		{
+			"path": "../../../../Downloads/10.1+Grid+Sizing/10.1 Grid Sizing"
+		},
+		{
+			"path": "../../../../Downloads/10.2+Grid+Placement/10.2 Grid Placement"
+		},
+		{
+			"path": "../../../../Downloads/10.3+Mondrian+Project/10.3 Mondrian Project"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}

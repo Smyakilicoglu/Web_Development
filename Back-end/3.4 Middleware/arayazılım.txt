@@ -1,0 +1,9 @@
+Middleware = Ara yazılım.
+yönlendirmeye gitmeden istenilen talepler doğrultusunda çeşitli işlevler gerçekleştiriyor.
+İstekleri günlüge kaydetmek için de ara yazılımla kullanılır.
+
+body-parser body özelligini sorgulamayı verir req.body özelliği verir.
+|_ Örnek: Bir kullanıcı eposta ve kullanıcı adı gibi şeyleri girip uygulamaya girmek istiyorsa o zaman bununla kodda denetim yapılıp kullanıcı bulunur.
+
+
+

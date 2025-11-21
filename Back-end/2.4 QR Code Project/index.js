@@ -1,0 +1,39 @@
+// HATA AYIKLAMAK İÇİN PACKAGE.JSON DEBUG'A TIKLA...!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+import inquirer from "inquirer";
+import qr from "qr-image";
+import fs from "fs";
+//KOD YAZILDIĞINDA URL GİRİLDİĞİ ZAMAN QR-PNG DOSYASI OLUŞTURDU VE QR EKLEDİ.!!!!!!!!!!!!!!
+inquirer
+  .prompt([
+    /* Pass your questions in here mesaj, depolama ismi*/
+    {"message": "Type in your URL: ",
+     "name": "URL"}
+  ])
+  .then((answers) => {
+    // Use user feedback for... whatever!! Alınan cevaplar Bunu yazdıktan sonra kodu çalıştırdık node index.js
+    // require olan yerleri siliyorum ve işime yarar hale getiriyorum.
+    const url = answers.URL;
+    var qr_svg = qr.image(url);
+    qr_svg.pipe(fs.createWriteStream('qr_img.png')); //qr kodun oldugu png dosyası.
+    fs.writeFile("URL.txt", url, (err) => {
+        if (err) throw err;
+        console.log("The file has been saved!"); // url için bir txt dosyası eklettik.
+      });
+  })
+  .catch((error) => {
+    if (error.isTtyError) {
+      // Prompt couldn't be rendered in the current environment
+    } else {
+      // Something else went wrong
+    }
+  });
+/* 
+üstte yazılanlar impoet yani type belirlenmeden kullanılamaz.
+-------diger yazılan şeyleri de getirmek için kimlik dediğimz şeyleri npm init -y diyerek detirebiliriz.
+-------package.json asayfada aktifken yaparsansorun çıkmaz.
+1. Use the inquirer npm package to get user input.
+2. Use the qr-image npm package to turn the user entered URL into a QR code image.
+3. Create a txt file to save the user input using the native fs node module.
+ikisini de yğklemek zorunda kaldık inquirer ve qr-image birlikte yüklenebilir.
+*/

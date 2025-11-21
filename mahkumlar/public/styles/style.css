@@ -1,0 +1,99 @@
+
+.container-fluid {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.navbar {
+    border-top: 15px;
+    border-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background: linear-gradient(300deg, #0E2954, 
+    #1F6E8C, 
+    #2E8A99,
+    #84A7A1);
+    background-size: 90% 90% 90% 90%;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
+
+.mahkumlar {
+    position: absolute;
+	text-align: center;
+	padding-bottom: 200px;
+    padding-top: 100px;
+	width: 100%;
+	height: 60px;
+    font-family: 'Noto Serif', serif;
+    background: linear-gradient(300deg, #0E2954, 
+    #1F6E8C, 
+    #2E8A99,
+    #84A7A1);
+    background-size:120% 120% 120%;
+}
+
+.genel {
+    position: absolute;
+	text-align: center;
+	padding-bottom: 100px;
+    padding-top: 100px;
+	width: 100%;
+	height: 60px;
+    font-family: 'Noto Serif', serif;
+}
+
+.sumeyra {
+    background: linear-gradient(300deg, #005656,
+    #488c91,
+    #a2b9c3);
+    background-size: 180% 180%;
+}
+.busenur {
+    background: linear-gradient(300deg, #461959,
+    #b355a5,
+    #AED8CC);
+    background-size: 180% 180%;
+
+}
+.buse {
+    background: linear-gradient(300deg, #6c4403,
+    #bd9d69,
+    #f5f1eb);
+    background-size: 180% 180%;
+}
+.fatma {
+    background: linear-gradient(300deg, #181D31,
+    #678983,
+    #F0E9D2);
+    background-size: 180% 180%;
+}
+.beyza {
+    background: linear-gradient(300deg, 
+    #63053a,
+    #8d2bc6,
+    #FFECEC);
+    background-size: 180% 180%;
+}

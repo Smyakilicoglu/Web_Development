@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    background-color: rgb(34, 34, 43);
+}
+
+h1 {
+    font-family: 'Playball', cursive;
+    font-size: 100px;
+    color: rgb(65, 182, 143);
+    text-shadow: 2px 2px 3px #000; /*gölge vermek için bu kullanılır.*/
+}
+h3 {
+    color: rgb(65, 182, 143);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.zarlar {
+    text-align: center;
+    display: inline-block;
+} 
+img {
+    width: 80%;
+}

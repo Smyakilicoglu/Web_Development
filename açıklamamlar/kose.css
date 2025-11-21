@@ -1,0 +1,23 @@
+body {
+    background-color: black; /* Arka fon rengini siyah yapmak için. */
+  }
+  h1 {
+    text-transform: uppercase; /* yazıdaki harflerin hepsini büyük harf yapmak için yazılmış. */
+    font-size: 3rem; /* yazı 3rem büyütülmüş. */
+  }
+  
+  .poster {
+    width: 50%;
+    margin-left: 25%; /*ekrandan sola kayması için left kullanılır. */
+    margin-top: 100px; /* yukarı boşluğu için top kullanılır. */
+    color: white;
+    font-family: "Libre Baskerville", serif; /*aynı yazı tipinde olduğu 
+    için div'in içine almış ben ikisini de farklı yazı tipi yaptım. */
+    text-align: center; /* her şeyi ortalamak için kullanılır. */
+  }
+  
+  .motivation-img {
+    border: 5px solid white; /* resmin etrafını beyaz bir çerçeveyle kaplamış 5pxlik. */
+    width: 100%; /*genişliğin %100 olması için yazılır. */
+  }
+  

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox</title>
+    <style>
+        .flex-container {
+            display: flex;
+        }
+        .card {
+            height: 50px;
+            flex: 0.5;
+            border: 10px solid white; /* karoları asyırması için arka pilanla aynı renk yapıp kesmesini sağladık. */
+            background-color: aquamarine;
+        }
+        .first {
+            flex: 1;
+        }
+        .second {
+            flex: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="first card"></div>
+        <div class="second card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+    </div>
+</body>
+</html>

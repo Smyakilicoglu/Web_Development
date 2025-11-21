@@ -1,0 +1,116 @@
+Talimatlar
+Proje Açıklaması
+Bu projenin amacı, Node.js, Express.js ve EJS kullanarak bir Yapılacaklar Listesi web uygulaması oluşturmaktır. 
+Uygulama, kullanıcıların görevleri oluşturmasına ve görüntülemesine olanak tanır.
+Uygulamanın bu sürümünde veritabanı kullanılmayacağından görevler oturumlar arasında devam etmeyecektir. 
+İyi bir kullanıcı deneyimi sağlamak için tasarım, bu projenin önemli bir yönü olacaktır.
+
+
+
+Örnek
+https://capstone-todo-example-003d0a7ff60a.herokuapp.com/
+
+
+
+Teslimat
+Web sitesinin işlevi için One Node projesi
+
+Web sitesinin yapısı için en az bir EJS dosyası dahil
+
+Web sitesinin stili için en az bir CSS dosyası dahil
+
+
+
+Özellikler
+1. Görev Oluşturma: Kullanıcılar yeni görevler oluşturabilmelidir.
+
+2. Görev Görüntüleme: Kullanıcılar, tüm görevlerinin bir listesini görüntüleyebilmelidir.
+
+3. Görev Tamamlama: Kullanıcılar, yapılacaklar listesinde tamamladıkları görevlerin üzerinden geçebilmelidir. Görevlerin silinmesine gerek yoktur.
+
+4. Parçalı Listeler: Kullanıcılar, biri günlük işler için, diğeri işle ilgili görevler için olmak üzere en az 2 listeye erişebilmelidir. (Örnek web sitesine bakın)
+
+3. Stil: Uygulama, hem masaüstü hem de mobil cihazlarda iyi bir kullanıcı deneyimi sağlayacak şekilde iyi tasarlanmış ve duyarlı olmalıdır.
+
+
+
+Teknik gereksinimler
+1. Node.js & Express.js: Uygulama, Node.js ve Express.js kullanılarak oluşturulmuş bir web sunucusu olacaktır. Express.js, yönlendirme ve ara katman yazılımlarını yönetir.
+
+2. EJS: EJS, uygulamanın durumuna göre dinamik HTML oluşturmak için şablon oluşturma motoru olarak kullanılacaktır.
+
+
+
+Zaman çizelgesi
+          0. Saat: Planlama
+
+İçerik ve tasarım fikirleri toplayın, tel kafesler ve maketler oluşturun.
+
+
+
+1. Saat: Kurulum
+
+Proje havuzunu kurun, Node.js uygulamasını başlatın ve gerekli bağımlılıkları (Express.js, EJS) kurun.
+
+Rotalar, görünümler ve statik dosyalar dahil olmak üzere uygulama yapısını planlayın.
+
+Express.js sunucusunu kurun ve gerekli rotaları tanımlayın.
+
+
+
+2-3. Saat: Özellikleri Uygulama
+
+Görev oluşturma özelliğini uygulayın. Bu, ana sayfada form oluşturmayı ve sunucuda form gönderimini gerçekleştirmeyi içerir.
+
+Görev görüntüleme özelliğini uygulayın. Bu, ana sayfada görev listesinin görüntülenmesini içerir.
+
+Görev çaprazlama özelliğini uygulayın. Bu, kullanıcının bir onay kutusunu işaretlemesine ve görevin üstünün çizili görünmesini sağlar.
+
+Farklı bir yapılacak işler kümesi göstermek için alternatif listeyi uygulayın.
+
+Görev oluşturma ve görüntülemenin doğru çalıştığından emin olmak için uygulamayı test edin.
+
+
+
+4-5. Saat: Şekillendirme ve Parlatma
+
+Uygulamaya stil verin. Bu, bir CSS dosyası oluşturmayı, onu EJS şablonlarınıza bağlamayı ve uygulamayı stillendirmek için CSS yazmayı veya Bootstrap/Flexbox/Grid kullanmayı içerir.
+
+Stilin doğru çalıştığından emin olmak için uygulamayı farklı cihazlarda ve tarayıcılarda test edin.
+
+Test sırasında ortaya çıkan hataları veya sorunları düzeltin.
+
+
+
+SSS
+1. Başlangıç dosyaları/stil dosyaları/çözüm kodu nerede?
+
+Capstone projelerinin amacı, profesyonel bir geliştiricide gerekli olan bağımsız becerileri geliştirmenizdir. 
+Modüllerin sonundaki öğretici projelerden farklı olarak, bitirme projesi size çok daha fazla özgürlük verir, ancak aynı zamanda size daha az yardım sağlar. 
+Başlangıç dosyaları, stil dosyaları, adımlar, rehberlik veya çözüm kodu yoktur. 
+Önemli olan, bu noktaya kadar edindiğiniz becerileri kullanarak kendi başınıza gerçek hayattan bir proje oluşturmanızdır. 
+Kursta herhangi bir modülü atlamadığınızı varsayıyoruz.
+
+Bitirme projeleri hakkında daha fazla bilgi için şu videoyu izleyin: https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/37350282
+
+
+
+2. Bu Bitirme projelerini iş görüşmelerimde/portföyümde kullanabilir miyim?
+
+Evet! Bu bitirme projelerinin amacı bu. Çözüm kodu ve video incelemeleri olan kurs projelerinin aksine, Bitirme Projeleri tamamen "kendi çalışmanız" anlamına gelir. 
+Dünya çapında bu web geliştirme kursuna kaydolan bir milyondan fazla öğrenci var. Portföyünüze bir kurs projesi eklerseniz, müşterinizin bunun bu kurstan olduğunu bilmesi çok olasıdır. 
+Öte yandan, bitirme projelerinin çözüm kodu, gözden geçirme veya tasarım özellikleri yoktur. 
+Tamamen sizin eseriniz yani kesinlikle kendi eseriniz sayılır ve portföyünüze eklenebilir.
+
+Geliştiricileri işe aldığımda her zaman bir portföy isterim. 
+Hangi üniversiteye gittiklerinden veya bilgisayar bilimleri diplomasına sahip olup olmadıklarından çok daha önemli olarak kendilerinin ne inşa ettiklerini düşünüyorum. 
+Çok uluslu şirketlerde ve startup'larda CEO olan birçok arkadaşım aynı fikirde.
+
+
+
+3. Tüm videoları izlememe rağmen bir şeyi nasıl yapacağımı hatırlamıyorsam ne olur?
+
+Bir beceriyi öğrenmek için genellikle video izlemek yeterli değildir. 
+Bu yüzden bu bitirme projeleri, zayıf noktalarınızı belirlemeniz için harika bir fırsattır. 
+İnşa ederken, kendinizi sıkışmış veya işleri nasıl yapacağınızı unutmuş halde bulacaksınız. 
+Harika! O zaman bilgi boşluklarınızı doldurmak için önceki dersleri veya çevrimiçi belgeleri gözden geçirme zamanı.

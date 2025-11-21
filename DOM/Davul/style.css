@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(31, 31, 45);
+}
+
+img {
+    width: 120px;
+    height: 120px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    height:100vh;
+    gap: 50px;
+}
+
+h1 {
+    font-size: 7rem;
+    font-family: 'Playball', cursive;
+    text-align: center;
+    color: rgb(156, 65, 75);
+    text-shadow: 2px 3px 5px #0b0b0b;
+    
+}
+button {
+    border: 15px solid rgb(84, 84, 124);
+    border-radius: 20px;
+}
